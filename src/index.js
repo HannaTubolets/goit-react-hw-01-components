@@ -9,8 +9,8 @@ import user from './components/profile/user.json';
 import { Statistics } from 'components/statistics/Statistics';
 import data from './components/statistics/data.json';
 
-// import { FriendList } from 'components/friend-list/FriendList';
-// import friends from './components/friend-list/friends.json';
+import { FriendList } from 'components/friend-list/FriendList';
+import friends from './components/friend-list/friends.json';
 
 import { TransactionHistory } from 'components/transactions/TransactionHistory';
 import transactions from './components/transactions/transactions.json';
@@ -32,7 +32,7 @@ ReactDOM.createRoot(
       stats={data}
     />
     {/* <Statistics stats={data} /> */}
-    {/* <FriendList friends={friends} />  */}
+    <FriendList friends={friends} /> 
     <TransactionHistory items={transactions} />;
   </React.StrictMode>
 );

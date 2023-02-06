@@ -28,7 +28,7 @@ export const Profile = ({ username, tag, location, avatar, stats }) => {
         </li>
         <li>
           <span className={css.label}>Views</span>
-          <span cclassName={css.quantity}>
+          <span className={css.quantity}>
             {stats.views}
           </span>
         </li>
