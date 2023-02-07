@@ -31,7 +31,7 @@ ReactDOM.createRoot(
       title="Upload stats"
       stats={data}
     />
-    {/* <Statistics stats={data} /> */}
+    <Statistics stats={data} />
     <FriendList friends={friends} /> 
     <TransactionHistory items={transactions} />;
   </React.StrictMode>
