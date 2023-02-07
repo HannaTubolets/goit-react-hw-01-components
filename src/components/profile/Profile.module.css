@@ -5,6 +5,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-radius: 8px;
   box-shadow: 2px 5px 15px 2px rgba(0, 0, 0, 0.1);
 }
 
@@ -61,6 +62,7 @@
   margin: 0;
   padding: 0;
   list-style: none;
+  border-radius: 8px;
 }
 
 .stats > li {
@@ -70,6 +72,6 @@
   font-size: 1.5rem;
   text-align: center;
   border-top: 1px solid #d3d5e3;
-  background-color: #E4D7DF;
+  background-color: #E9D4E2;
 }
 
