@@ -13,11 +13,17 @@ export const Statistics = ({ title, stats }) => {
   return (
     <div className={css.statisticsContainer}>
       <section className={css.statistics}>
-        {title && <h2 className={css.title}>{title}</h2>}
+        {title && (
+          <h2 className={css.title}>{title}</h2>
+        )}
         <ul className={css.statList}>
           {stats.map(stat => (
             <li
-              className={title? css.statListItem : css.statListItemNoTitle}
+              className={
+                title
+                  ? css.statListItem
+                  : css.statListItemNoTitle
+              }
               style={{
                 backgroundColor: getDarkColor(),
               }}

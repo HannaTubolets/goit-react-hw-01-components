@@ -14,7 +14,7 @@
 
 .headerTitle {
   padding: 8px 16px;
-  background-color: #929AEE;
+  background-color: #929aee;
   color: #ffff;
   font-size: 24px;
   text-transform: uppercase;
@@ -27,10 +27,12 @@
 .headerTitle:last-child {
   border-radius: 0 8px 0 0;
 }
-.headerTitle:last-child .transactionData:first-child {
+.headerTitle:last-child
+  .transactionData:first-child {
   border-radius: 0 0 0 8px;
 }
-.headerTitle:last-child .transactionData:last-child {
+.headerTitle:last-child
+  .transactionData:last-child {
   border-radius: 0 0 8px 0;
 }
 
@@ -43,5 +45,5 @@
 }
 
 .headerContainer:nth-child(even) {
-  background-color: #E9D4E2;
+  background-color: #e9d4e2;
 }

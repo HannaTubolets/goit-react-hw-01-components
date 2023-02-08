@@ -6,9 +6,15 @@ export const TransactionHistory = ({ items }) => {
     <table className={css.transactionHistory}>
       <thead className={css.thead}>
         <tr className={css.headerContainer}>
-          <th className={css.headerTitle}>Type</th>
-          <th className={css.headerTitle}>Amount</th>
-          <th className={css.headerTitle}>Currency</th>
+          <th className={css.headerTitle}>
+            Type
+          </th>
+          <th className={css.headerTitle}>
+            Amount
+          </th>
+          <th className={css.headerTitle}>
+            Currency
+          </th>
         </tr>
       </thead>
 

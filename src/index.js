@@ -32,7 +32,7 @@ ReactDOM.createRoot(
       stats={data}
     />
     <Statistics stats={data} />
-    <FriendList friends={friends} /> 
+    <FriendList friends={friends} />
     <TransactionHistory items={transactions} />;
   </React.StrictMode>
 );
