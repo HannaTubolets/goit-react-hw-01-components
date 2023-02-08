@@ -1,14 +1,18 @@
 .friendList {
-  margin: 0 auto;
+  display: block;
+  margin-top: 40px;
+  width: 500px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0;
-  list-style: none;
 }
 
 .item {
-  width: 50%;
+  width: 500px;
   display: grid;
   grid-template-columns: 1fr 2fr 3fr;
-  margin-top: 32px;
+  margin-top: 24px;
   align-items: center;
   box-shadow: 2px 5px 15px 2px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
@@ -45,7 +49,7 @@
   align-items: left;
   padding: 16px;
   text-align: left;
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 600;
   color: #6a033c;
 }
